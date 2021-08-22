@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=WindSong&display=swap');
+
+body{
+    background-color: rgb(68, 75, 143) !important;
+    
+}
+
+.array-container{
+    z-index:1;
+    position:absolute;
+    left:220px;
+    bottom:200px;
+}
+
+.array-bar{
+    z-index:1;
+    zoom: 100%;
+    background-color: #E88DFD;
+    width: 30px;
+    display:inline-block;
+    margin: 0 2px;
+
+}
+
+.b-container{
+    top:90vh;
+    width: 100%;
+    position:absolute;
+
+}
+
+.b-item{
+    background-color:#6085C1;
+    color:white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+    font-family: 'Indie Flower', cursive;
+
+    
+}
+
+.b-item:hover{
+    background-color: rgb(245, 245, 245);
+    color:rgb(100, 50, 65);
+}
+
+.values-container{
+    position:absolute;
+    left:220px;
+    top:82vh;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+
+}
+
+.values{
+    width: 30px;
+    display:inline-block;
+    margin: 0 2px;
+    border-radius: 30%;
+    color:white;
+    height: 30px;
+}
+
+.counter{
+    position:absolute;
+    z-index: 2;
+    width:100%;
+    background-color:#6085C1;
+    color:white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+.counter-item{
+    display: table;
+    margin: 0 auto;
+}
